@@ -35,5 +35,13 @@
         background-color: $white;
         color:$bright-orange;
     }
-    
+    @media (min-width:768px) {
+        &__claim{
+            font-size: 16px;
+        }
+        & .h2{
+            font-size: 32px;
+        }
+
+    }
 }

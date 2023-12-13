@@ -9,4 +9,19 @@
             margin: 10px;
         }
     }
+    @media (min-width:768px) {
+        &__container{
+            width: 42px;
+        }
+
+    }
+    @media (min-width:1200px) {
+        &__container{
+            width: 45px;
+            height: 44.9px;
+        }
+        & img{
+            margin: 15px;
+        }
+    }
 } 

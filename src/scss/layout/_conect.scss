@@ -23,7 +23,15 @@
         font-family: Roboto;
         font-size: 18px;
         line-height: 30px;
-        width: 287px;
-
+        margin-top: 11px;
+        margin-bottom: 5px;
+    }
+    & .conect__button{
+        border-radius: 22.5px;
+        height: 45px;
+        width: 160px;
+        border: solid 2px $bright-orange;
+        background-color: $white;
+        color:$bright-orange;
     }
 }

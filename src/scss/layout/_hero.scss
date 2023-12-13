@@ -1,6 +1,8 @@
 .hero{
     background-image: url(../images/hero.jpeg);
-    background-size:cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
     height: 528.8px;
     width: 100vw;
     display: flex;
@@ -12,7 +14,6 @@
         color: $white;
         font-family: RobotoSlab;
         font-size: 30px;
-        line-height: 50px;
         text-transform: uppercase;
         font-weight: bold;
     }
@@ -21,7 +22,6 @@
         font-size: 16px;
         text-align: center;
         color: $white;
-        line-height: 19px;
         padding-bottom: 10px;
         
     }
@@ -38,6 +38,21 @@
            height: 9.3px;
 
         }
+    }
+    @media (min-width:768px) {
+        height: 768px;
+        &__h1{
+            font-size: 75px;
+        }
+        & .text{
+            font-size: 24px;
+        }
+        &__button{
+            width: 42.5px;
+            height: 45px;
+            
+        }
+
     }
 }
 

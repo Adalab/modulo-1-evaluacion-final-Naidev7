@@ -1,0 +1,45 @@
+.hero{
+    background-image: url(../images/hero.jpeg);
+    background-size:cover;
+    height: 528.8px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    &__h1{
+        padding-top: 314.1px;
+        text-align: center;
+        color: $white;
+        font-family: RobotoSlab;
+        font-size: 30px;
+        line-height: 50px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    & .text{
+        font-family: Roboto-Regular;
+        font-size: 16px;
+        text-align: center;
+        color: $white;
+        line-height: 19px;
+        padding-bottom: 10px;
+        
+    }
+    &__button{
+        margin: 0 auto;
+        border-radius: 22.5px;
+        width: 37.9px;
+        height: 36.7px;
+        background-color: $white;
+        border: none;
+        padding-bottom: 37.8pxr;
+        .img{
+           width: 16.8px;
+           height: 9.3px;
+
+        }
+    }
+}
+
+
+

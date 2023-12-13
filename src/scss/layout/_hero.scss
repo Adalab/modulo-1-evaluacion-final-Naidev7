@@ -52,7 +52,18 @@
             height: 45px;
             
         }
-
+    }
+    @media (min-width:1200px) {
+        &__h1{
+            font-size: 100px;
+        }
+        & .text{
+            font-size: 28px; ;
+        }
+        &__button{
+            width: 46px;
+            height: 45.9px;
+        }
     }
 }
 

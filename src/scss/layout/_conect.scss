@@ -3,6 +3,7 @@
     background-color:$white;
     padding-left: 16px;
     padding-right: 12px;
+    font-family: Roboto;
     &__claim{
          color:$bright-orange;
          font-family: Roboto;
@@ -21,7 +22,6 @@
     }
     & .text{
         color: $greyish-brown;
-        font-family: Roboto;
         font-size: 18px;
         line-height: 30px;
         margin-top: 11px;
@@ -36,12 +36,40 @@
         color:$bright-orange;
     }
     @media (min-width:768px) {
+        padding-left: 37px;
         &__claim{
-            font-size: 16px;
+          font-size: 16px;
+          padding-top: 37px;
+          
         }
         & .h2{
             font-size: 32px;
+            padding-top: 66px;
         }
-
+        & .text{
+            padding-top: 12px;
+            font-size: 20px;
+        }
+        & .conect__button{
+            margin-top: 21px;
+        }
+    }
+    @media (min-width:1200px) {
+        padding-left: 275px;
+        &__claim{
+          padding-top: 58px;
+        }
+        & .h2{
+            font-size: 32px;
+            padding-top: 66px;
+            line-height: 41px;
+        }
+        & .text{
+            padding-top: 7px;
+            font-size: 20px;
+        }
+        & .conect__button{
+            margin-top: 35px;
+        }
     }
 }

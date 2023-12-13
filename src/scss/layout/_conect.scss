@@ -1,0 +1,29 @@
+.conect{
+    height: 376px;
+    background-color:$white;
+    padding-left: 16px;
+    &__claim{
+         color:$bright-orange;
+         font-family: Roboto;
+         font-size: 14px;
+         padding-top: 34px;
+         line-height: 30px;
+    }
+    & .h2{
+        width: 290px;
+        height: 30px;
+        font-family: $text;
+        font-weight: bold;
+        font-size: 24px;  
+        color: $black;
+
+    }
+    & .text{
+        color: $greyish-brown;
+        font-family: Roboto;
+        font-size: 18px;
+        line-height: 30px;
+        width: 287px;
+
+    }
+}

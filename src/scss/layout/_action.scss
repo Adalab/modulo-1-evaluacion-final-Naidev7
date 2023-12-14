@@ -1,16 +1,13 @@
 .grid_container {
   background-color: $white-two;
-  display: grid;
   gap: 20px;
   text-align:center;
   @media (min-width:768px) {
+    display: grid;
     grid-template-areas: "tittle tittle tittle"
     "article1 article2 article3"
     "button button button" 
     ;
-    & .button {
-      margin-left: 292px;
-    }
   }
   & .h3 {
     grid-area: tittle;
@@ -42,8 +39,8 @@
   }
   & .button {
     grid-area: button;
+    grid-column:2 ;
     margin:27px 0 49px 0;
-    transform: translate(50%);
     background-color: $bright-orange;
     color: $white;
     width: 184px;

@@ -5,7 +5,8 @@
     height: 45px;
     border-radius: 22px;
     border: none;
-    transform: scale(50px -15);
+    align-self: center;
+    transform: translateY(-15px);
     background-color: $white;
   }
   & .links {

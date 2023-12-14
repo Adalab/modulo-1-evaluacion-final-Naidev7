@@ -1,75 +1,62 @@
-.conect{
-    height: 376px;
-    background-color:$white;
-    padding-left: 16px;
-    padding-right: 12px;
-    font-family: Roboto;
-    &__claim{
-         color:$bright-orange;
-         font-family: Roboto;
-         font-size: 14px;
-         padding-top: 34px;
-         line-height: 30px;
+.conect {
+  height: 376px;
+  background-color: $white;
+  padding-left: 16px;
+  padding-right: 12px;
+  &__claim {
+    color: $bright-orange;
+    font-family: $text;
+    font-size: 14px;
+    padding-top: 34px;
+    line-height: 30px;
+  }
+  & .h2 {
+    width: 290px;
+    height: 30px;
+    font-family: $text;
+    font-weight: 700;
+    font-size: 24px;
+    color: $black;
+    font-family: $RSlab;
+  }
+  & .text{
+    color: $greyish-brown;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 11px;
+    margin-bottom: 5px;
+    font-family:$text;
+  }
+  &__button {
+    border-radius: 22.5px;
+    height: 45px;
+    width: 160px;
+    border: solid 2px $bright-orange;
+    background-color: $white;
+    color: $bright-orange;
+    font-family: $text;
+  }
+  @media (min-width: 768px) {
+    padding-left: 37px;
+    &__claim {
+      font-size: 16px;
+      padding-top: 37px;
     }
-    & .h2{
-        width: 290px;
-        height: 30px;
-        font-family: $text;
-        font-weight: bold;
-        font-size: 24px;  
-        color: $black;
-
+    & .h2 {
+      font-size: 32px;
     }
-    & .text{
-        color: $greyish-brown;
-        font-size: 18px;
-        line-height: 30px;
-        margin-top: 11px;
-        margin-bottom: 5px;
+    & .text {
+      padding-top: 12px;
+      font-size: 20px;
     }
-    & .conect__button{
-        border-radius: 22.5px;
-        height: 45px;
-        width: 160px;
-        border: solid 2px $bright-orange;
-        background-color: $white;
-        color:$bright-orange;
+    &__button {
+      margin-top: 31px;
     }
-    @media (min-width:768px) {
-        padding-left: 37px;
-        &__claim{
-          font-size: 16px;
-          padding-top: 37px;
-          
-        }
-        & .h2{
-            font-size: 32px;
-            padding-top: 66px;
-        }
-        & .text{
-            padding-top: 12px;
-            font-size: 20px;
-        }
-        & .conect__button{
-            margin-top: 21px;
-        }
+  }
+  @media (min-width: 1200px) {
+    padding-left: 275px;
+    &__claim {
+      padding-top: 58px;
     }
-    @media (min-width:1200px) {
-        padding-left: 275px;
-        &__claim{
-          padding-top: 58px;
-        }
-        & .h2{
-            font-size: 32px;
-            padding-top: 66px;
-            line-height: 41px;
-        }
-        & .text{
-            padding-top: 7px;
-            font-size: 20px;
-        }
-        & .conect__button{
-            margin-top: 35px;
-        }
-    }
+  }
 }

@@ -1,70 +1,46 @@
 .footer {
   background-color: $greyish-brown;
-  height: 465px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   &__button {
     width: 45px;
     height: 45px;
     border-radius: 22px;
     border: none;
-    align-self: center;
     transform: translateY(-15px);
     background-color: $white;
   }
-  & .products {
-    padding-top: 65px;
-    & .links {
-      text-decoration: none;
-      list-style: none;
-      color: $white;
-      & .li {
-        font-family: Roboto;
-        font-size: 16px;
-        text-transform: uppercase;
-        line-height: 30px;
-        text-align: center;
-      }
-    }
-  }
-  & .social{
-    & .links {
-      text-decoration: none;
-      list-style: none;
-      color: $white;
-      & .li {
-        font-family: Roboto;
-        font-size: 16px;
-        text-transform: uppercase;
-        line-height: 30px;
-        text-align: center;
-      }
+  & .links {
+    text-decoration: none;
+    list-style: none;
+    color: $white;
+    & .li {
+      font-family: $text;
+      font-size: 16px;
+      text-transform: uppercase;
+      line-height: 30px;
+      text-align: center;
     }
   }
   &__copy {
     color: $white;
-    font-family: Roboto;
-    height: 32px;
+    font-family:$text;
     line-height: 2.14;
     font-size: 14px;
-    & .copy-icon {
-      margin: 20px 0 0;
-    }
-    & .text {
-      margin-bottom: 32px;
-    }
+    text-align: center;
   }
   @media (min-width: 768px) {
-    &__button {
-        align-self: center;
-        transform: translateY(-15px);
-    }
-    &__container{
-        height: 240px;
-        display: flex;
-        flex-direction: row-reverse;
-        align-items: center;
+    &__container {
+      display: flex;
+      justify-content: space-around;
+      & .products {
+        order: 2;
+        padding-bottom: 24px;
+      }
+      & .social {
+        order: 3;
+      }
+      &__copy {
+        order: 1;
+      }
     }
   }
 }

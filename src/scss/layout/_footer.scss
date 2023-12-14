@@ -1,12 +1,12 @@
 .footer {
   background-color: $greyish-brown;
-  &__button {
+  &__button { 
     width: 45px;
     height: 45px;
     border-radius: 22px;
     border: none;
     align-self: center;
-    transform: translateY(-15px);
+    transform: translate(160px, -15px);
     background-color: $white;
   }
   & .links {
@@ -29,6 +29,9 @@
     text-align: center;
   }
   @media (min-width: 768px) {
+    &__button{
+      transform: translate(360px, -15px);
+    }
     &__container {
       display: flex;
       justify-content: space-around;

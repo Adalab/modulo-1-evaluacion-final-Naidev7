@@ -27,18 +27,18 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./assets/index-5b578be7.css">
+    <link rel="stylesheet" href="./assets/index-786f9d72.css">
   </head>
   <body>
     <header class="header">
   <div class="header__container">
         <a class="container--a" href="https://adalab.es/bootcamp-programacion/">
-            <img class="img" src="../images/ico-menu.svg" alt="ico-menu">
+            <img class="img" src="./images/ico-menu.svg" alt="ico-menu">
         </a>
   </div>
 </header>
     <main>
-    <section class="hero">
+    <section class="hero" id="hero">
         <h1 class="hero__h1">
             hasta un 50% de descuento
         </h1>
@@ -46,7 +46,9 @@
             Ya están aquí las ofertas de fin de temporada
         </p>
         <button class="hero__button">
-            <img class="img" src="../images/ico-scroll-down.svg" alt="arrowScroll">
+            <a href="#action">
+                <img class="img" src="./images/ico-scroll-down.svg" alt="arrowScroll">
+            </a>
         </button>
     </section>
     <section class="conect">
@@ -59,8 +61,8 @@
             Comprar
         </button>
     </section>
-    <section class="action grid_container">
-        <h3 class="h3">
+    <section class="grid_container">
+        <h3 class="h3" id="action">
             Año nuevo, movimientos nuevos
         </h3>
         <div class="box">
@@ -94,7 +96,9 @@
 </main>
     <footer class="footer">
   <button class="footer__button">
-    <img class="footer__button--img" src="../images/ico-arrow.svg" alt="" />
+    <a href="#hero">
+      <img class="footer__button--img" src="./images/ico-arrow.svg" alt="" />
+    </a>
   </button>
   <div class="footer__container">
     <ul class="products">

@@ -1,0 +1,53 @@
+.grid_container {
+  background-color: $white-two;
+  gap: 20px;
+  text-align:center;
+  @media (min-width:768px) {
+    display: grid;
+    grid-template-areas: "tittle tittle tittle"
+    "article1 article2 article3"
+    "button button button" 
+    ;
+  }
+  & .h3 {
+    grid-area: tittle;
+    font-family: $RSlab;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 29px;
+    padding-bottom: 20px;
+  }
+  & .box1{
+    grid-area: article1;
+  }
+  & .box2{
+    grid-area: article2;
+  }
+  & .box3{
+    grid-area: article3;
+  }
+  & .h4 {
+    font-size: 18px;
+    font-family: $RSlab;
+    font-weight: bold;
+  }
+  & .text {
+    font-size: 18px;
+    font-family:$text;
+    padding-top: 1px;
+    padding-bottom: 50px;
+  }
+  & .button {
+    grid-area: button;
+    grid-column:2 ;
+    margin:27px 0 49px 0;
+    background-color: $bright-orange;
+    color: $white;
+    width: 184px;
+    height: 45px;
+    border-radius: 22.5px;
+    border: none;
+    font-family: $text;
+    font-size: 20px;
+  }
+}

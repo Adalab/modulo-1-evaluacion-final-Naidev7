@@ -1,5 +1,26 @@
-.page__header {
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
-}
+.header{
+    display:inline;
+    position: fixed;
+    &__container{
+        background-color:#f26002;
+        width: 37px;
+        & img{
+            margin: 10px;
+        }
+    }
+    @media (min-width:768px) {
+        &__container{
+            width: 42px;
+        }
+
+    }
+    @media (min-width:1200px) {
+        &__container{
+            width: 45px;
+            height: 44.9px;
+        }
+        & img{
+            margin: 15px;
+        }
+    }
+} 

@@ -20,13 +20,13 @@ Media Queries:
 #Implementación
 1.Clonar el Repositorio:
 
-2.No se requieren dependencias externas. Solo necesitas un navegador web moderno.
+2 .No se requieren dependencias externas. Solo necesitas un navegador web moderno.
 Estructura del Proyecto:
 
 3.El código fuente se encuentra en el directorio src, donde encontrarás archivos HTML, SCSS y cualquier archivo JavaScript si es necesario.
 Compilar SCSS:
 
-4.Si realizas cambios en los archivos SCSS, asegúrate de compilarlos en CSS. Puedes utilizar herramientas como Sass o tu propio compilador de SCSS.
+4 .Si realizas cambios en los archivos SCSS, asegúrate de compilarlos en CSS. Puedes utilizar herramientas como Sass o tu propio compilador de SCSS.
 Prueba Local:
 
 5.Abre el archivo HTML en tu navegador local para asegurarte de que el diseño y las animaciones se vean como se esperaba.
